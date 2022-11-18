@@ -14,7 +14,7 @@ class EntryRoot extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Search Image',
+      title: 'Search Images',
       theme: ThemeData(
           bottomSheetTheme:
               const BottomSheetThemeData(backgroundColor: Colors.transparent)),
