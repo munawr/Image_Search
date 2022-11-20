@@ -3,6 +3,7 @@ import '../../config/color_collection.dart';
 import '../../config/text_style_collection.dart';
 import '../../providers/main_provider.dart';
 import '../../services/device_specific_operations.dart';
+import 'package:provider/provider.dart';
 
 class SearchSection extends StatefulWidget {
   const SearchSection({Key? key}) : super(key: key);
